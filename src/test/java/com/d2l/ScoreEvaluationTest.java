@@ -19,7 +19,7 @@ public class ScoreEvaluationTest {
 	@Test
 	public void test() {
 		//fail("Not yet implemented");
-		assertEquals("Add Value Correct", 1, 1);
+		assertEquals("Test Change", 1, 1);
 	}
 	
 	@Test
