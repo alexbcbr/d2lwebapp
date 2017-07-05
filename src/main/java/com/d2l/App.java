@@ -1,6 +1,5 @@
 package com.d2l;
 
-
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
