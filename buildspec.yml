@@ -7,4 +7,4 @@ phases:
 artifacts:
   files:
     - '**/*'
-  base-directory: 'target/d2lwebapp-1.0.war'
+  base-directory: 'target'
