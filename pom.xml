@@ -19,6 +19,13 @@
         <artifactId>maven-war-plugin</artifactId>
         <version>3.0.0</version>
         <configuration>
+          <webResources>
+             <resource>
+                 <directory>src/main/ebextensions</directory>
+                 <targetPath>.ebextensions</targetPath>
+                 <filtering>true</filtering>
+             </resource>
+          </webResources>
           <webappDirectory>${project.build.directory}</webappDirectory>
         </configuration>
       </plugin>
